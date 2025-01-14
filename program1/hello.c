@@ -1,3 +1,6 @@
+// Author: Joseph Leskey
+// Date: 14 January 2024
+
 #include <stdio.h>
 #include <stdlib.h>
 
