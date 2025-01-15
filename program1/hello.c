@@ -95,6 +95,8 @@ char *jReadLine(FILE *stream)
             // increments of `STRING_INCREMENT`.
             if (length % STRING_INCREMENT == 0)
             {
+                // We need to increment the buffer size and leave a
+                // space for a null character to complete the string.
                 int newLength = length + STRING_INCREMENT + 1;
 
                 // It would be a shame to lose the original buffer
