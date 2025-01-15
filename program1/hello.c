@@ -24,6 +24,9 @@
  *
  * @param[in] stream The file descriptor
  * @returns A meaningful line, or `NULL` if empty
+ * @note
+ *  I wanted a custom readline function that could input a
+ *  variable-length string.
  */
 char *jReadLine(FILE *stream);
 
