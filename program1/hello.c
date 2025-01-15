@@ -24,6 +24,7 @@ char *promptInput(char *prompt)
         printf("%s ", prompt);
         response = jReadLine(stdin);
     }
+    printf("\n");
 }
 
 char *jReadLine(FILE *stream)
